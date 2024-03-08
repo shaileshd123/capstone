@@ -56,6 +56,18 @@
     <artifactId>poi-ooxml</artifactId>
     <version>5.2.5</version>
 </dependency>
+
+
+    <!-- Other dependencies -->
+    <dependency>
+        <groupId>io.github.bonigarcia</groupId>
+        <artifactId>webdrivermanager</artifactId>
+        <version>5.0.3</version> <!-- Or the version you need -->
+    </dependency>
+
+
+
+
   </dependencies>
 
   <build>

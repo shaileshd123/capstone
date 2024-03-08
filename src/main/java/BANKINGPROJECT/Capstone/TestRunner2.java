@@ -1,5 +1,9 @@
 package BANKINGPROJECT.Capstone;
 
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeClass;
+import org.testng.AssertJUnit;
 import java.util.concurrent.TimeUnit;
 
 import org.testng.Assert;
@@ -61,7 +65,7 @@ public void setProperty() throws Exception {
 		obj4.ClickOnDepositButton();
 		String ActualText = obj4.Verify_successMessage();
 		String ExpectedText="Deposit Successful";
-		Assert.assertEquals(ActualText,ExpectedText);
+		AssertJUnit.assertEquals(ActualText,ExpectedText);
 		  driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 
 		//Thread.sleep(2000);
@@ -96,10 +100,10 @@ public void setProperty() throws Exception {
 		obj7.SearchName();
 		String Actual_CustomerName=obj7.VerifyNameOfCustomer();
 		String Expected_CustomerName="Shailesh";
-		Assert.assertEquals(Actual_CustomerName, Expected_CustomerName);
+		AssertJUnit.assertEquals(Actual_CustomerName, Expected_CustomerName);
   }
   @AfterClass
   public void CloseBrowser() {
 	  driver.close();
-  }
+ }
 }
