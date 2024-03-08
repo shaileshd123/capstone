@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-08T04:53:48Z" name="Default suite" finished-at="2024-03-08T04:54:23Z" duration-ms="34102">
+    <groups>
+    </groups>
+    <test started-at="2024-03-08T04:53:48Z" name="Default test" finished-at="2024-03-08T04:54:23Z" duration-ms="34102">
+      <class name="BANKINGPROJECT.Capstone.TestRunner">
+        <test-method is-config="true" signature="setProperty()[pri:0, instance:BANKINGPROJECT.Capstone.TestRunner@d41f816]" started-at="2024-03-08T10:23:48Z" name="setProperty" finished-at="2024-03-08T10:23:52Z" duration-ms="3818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setProperty -->
+        <test-method signature="f()[pri:0, instance:BANKINGPROJECT.Capstone.TestRunner@d41f816]" started-at="2024-03-08T10:23:52Z" name="f" finished-at="2024-03-08T10:24:07Z" duration-ms="14232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:BANKINGPROJECT.Capstone.TestRunner@d41f816]" started-at="2024-03-08T10:24:07Z" name="CloseBrowser" finished-at="2024-03-08T10:24:07Z" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- BANKINGPROJECT.Capstone.TestRunner -->
+      <class name="BANKINGPROJECT.Capstone.TestRunner2">
+        <test-method is-config="true" signature="setProperty()[pri:0, instance:BANKINGPROJECT.Capstone.TestRunner2@5c2375a9]" started-at="2024-03-08T10:24:07Z" name="setProperty" finished-at="2024-03-08T10:24:10Z" duration-ms="3633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setProperty -->
+        <test-method signature="f()[pri:0, instance:BANKINGPROJECT.Capstone.TestRunner2@5c2375a9]" started-at="2024-03-08T10:24:10Z" name="f" finished-at="2024-03-08T10:24:22Z" duration-ms="12158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:BANKINGPROJECT.Capstone.TestRunner2@5c2375a9]" started-at="2024-03-08T10:24:22Z" name="CloseBrowser" finished-at="2024-03-08T10:24:23Z" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- BANKINGPROJECT.Capstone.TestRunner2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
